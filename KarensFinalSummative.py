@@ -42,7 +42,7 @@ downArrow = image.load("downArrowKaren.png")
 
 
 #music
-bgMusic = mixer.Sound("bgMusicKaren.wav") #music for the game 
+#bgMusic = mixer.Sound("bgMusicKaren.wav") #music for the game 
 
 #constant global variables 
 myClock = time.Clock() 
@@ -492,7 +492,7 @@ scoreCount = 0 #first having an empty score
 
 while state != STATEQUIT:
     
-    bgMusic.play()
+    #bgMusic.play()
 
     mx = my = 0
     button = 0
